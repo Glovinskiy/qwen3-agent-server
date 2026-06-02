@@ -1,5 +1,7 @@
 FROM ollama/ollama:latest
 
+ADD https://huggingface.co/Burumbum/qwen3-4b-agent-q4km/resolve/main/qwen3-4b-agent-q4km.gguf /models/qwen3-agent.gguf
+
 COPY Modelfile /Modelfile
 
 RUN ollama serve & \

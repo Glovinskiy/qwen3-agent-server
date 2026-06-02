@@ -1,2 +1,2 @@
-FROM https://huggingface.co/Burumbum/qwen3-4b-agent-q4km/resolve/main/qwen3-4b-agent-q4km.gguf
+FROM /models/qwen3-agent.gguf
 PARAMETER num_ctx 4096
